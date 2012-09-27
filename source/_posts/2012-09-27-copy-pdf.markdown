@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Howto copy text out of protected PDF file"
+title: "Howto copy text out of protected PDF files"
 date: 2012-09-27 11:24
 comments: true
 categories:
