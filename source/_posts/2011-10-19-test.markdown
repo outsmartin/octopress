@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Vim 7.3 mit Ruby Unterstützung kompilieren"
+date: 2011-10-19 17:29
+comments: true
+categories:
+---
+Meinen Blog möchte ich mit einem kleinen HOWTO beginnen. Um Vim als IDE für Ruby-on-Rails zu nutzen, muss die Ruby Unterstützung reinkompiliert werden.
+Dies ist nicht besonders kompliziert und mit ein paar Handgriffen getan.
+Wichtig ist, dass vor der Installation alle alten Vim Versionen entfernt werden(vim-tiny oder vim-gnome...).
+Der Installationsvorgang sieht dann wie folgt aus:
+{% codeblock lang:bash %}
+cd /usr/src
+sudo su
+wget ftp://ftp.vim.org/pub/vim/unix/vim-7.3.tar.bz2
+tar jxf vim-7.3.tar.bz2
+cd vim73/
+./configure --with-features=huge --enable-rubyinterp --enable-gui=gnome2
+make
+make install
+{% endcodeblock %}
+
+Im Anschluss einfach mal vim ausführen und gucken, ob alles geht :)
+
+happy hacking :)

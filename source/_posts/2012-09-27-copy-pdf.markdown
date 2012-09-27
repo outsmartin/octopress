@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Howto copy text out of protected PDF file"
+date: 2012-09-27 11:24
+comments: true
+categories:
+---
+I often get asked how to copy the text out of protected PDFs in Windows.
+Authors can mark their PDFs as protected to apply certain restrictions like commenting or copying.
+But not all Readers care about them. There are a lot of old Readers that allow you to copy.
+
+The default PDF-Reader in Ubuntu doesn't care as well and easily lets you copy the content.
+So go and get [Evince for Windows](https://live.gnome.org/Evince/Downloads).
